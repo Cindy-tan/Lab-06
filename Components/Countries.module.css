@@ -1,0 +1,24 @@
+/* Countries.module.css */
+
+.countriesContainer {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 16px; 
+    padding: 16px;
+  }
+  
+  .column {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+  }
+  
+  .countryContainer {
+    border: 1px solid #ddd;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
